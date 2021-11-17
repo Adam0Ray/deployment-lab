@@ -5,3 +5,13 @@ h1 {
 #apple {
     color: red;
 }
+
+body{
+    background-color: rosybrown;
+}
+
+.divider{
+    width: 100vw;
+    height: 20vh;
+    background-color:rgb(198, 226, 40);
+}
