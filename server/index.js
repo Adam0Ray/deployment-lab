@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 //server ready to send file to anything that makes a request to it
 
-app.get('/css', (req, res) => {
+app.get('/cs', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.css'))
   })
 
