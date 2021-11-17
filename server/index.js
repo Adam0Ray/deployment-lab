@@ -15,10 +15,6 @@ app.get('/css', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.css'))
   })
 
-  app.get('/img', (req, res) => {
-    res.sendFile(path.join(__dirname, '../tree of life avatar.jpg'))
-  })
-
 
 const port = process.env.PORT || 4006  //logical or statement to set port
 
