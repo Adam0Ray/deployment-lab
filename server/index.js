@@ -11,7 +11,9 @@ app.get('/', (req, res) => {
 
 //server ready to send file to anything that makes a request to it
 
-
+app.get('/js', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.js'))
+  })
 
 
 
